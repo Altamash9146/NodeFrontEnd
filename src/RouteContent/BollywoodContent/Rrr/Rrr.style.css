@@ -1,0 +1,112 @@
+.Rrr-Container{
+position: absolute; top: 10%; left: 38%;
+}
+
+.Rrr-Heading{
+    position: relative; left: 80px;
+}
+
+.Rrr-line{
+    border-bottom: 2px solid brown;
+    position: relative; top: 100px;   left:25% ;
+    width: 50%;
+}
+
+.Rrr-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Rrr-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.Rrr-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.Rrr-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+
+.Rrr-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -30px;
+}
+
+.Rrr-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left:11%; top: -60px;
+    font-size: 18px;
+}
+
+.Rrr-Para-Container{
+width: 700px;
+position: relative; left: -185px; top: -55px;
+}
+
+.Rrr-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.Rrr-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.Rrr-line{
+    display: none;
+}
+
+.Rrr-Media-Container{
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    width: 377px;
+}
+
+.Rrr-Date-Container{
+position: absolute; top: 110px; left: -90px;
+}
+
+
+.Rrr-Image{
+    position: absolute; left:-100px; top: 170px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.Rrr-Image-Name{
+    position: absolute; left: -92px; top: 400px;
+    width: 310px;
+}
+
+.Rrr-Para-Container{
+    position: absolute; left: -100px; top: 425px;
+    width: 280px;
+}
+
+.Rrr-Back-Button{
+    position: relative; left: -110px; top: 1340px;
+} 
+
+
+}
+
+

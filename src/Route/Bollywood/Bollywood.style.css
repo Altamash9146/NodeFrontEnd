@@ -1,0 +1,293 @@
+                    /* Mobile Route Css */
+.Mobile-Route-Border{
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 145px; width: 100%;
+    position: absolute; top: 0%; left: 0%;
+    background-image: linear-gradient(lightblue,grey);
+    position: fixed;
+    z-index: 1;
+    display: none;
+} 
+  
+
+.Mobile-Route-Navigation-Container{
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute; left: 17%; top: 16%;
+    z-index: 1;
+    display: none;
+}
+
+
+
+.Mobile-Route-Navigation-Container a{
+    color: black;
+    text-decoration: none;
+}
+
+.Mobile-Route-Navigation-Container a.active {
+    color: black;
+    text-decoration: none;
+    color: red;
+  }
+
+  /* Hamburger css */
+
+.Mobile-Route-Menu-Container{
+    position: absolute; left: 83%; top: 6%;
+    width: 25px;
+    z-index: 1;
+    position: fixed;
+    display: none;
+}
+
+.line0{
+    border-top: 2px solid rgba(0, 0, 0, 0);
+}
+
+.line1{
+    border-top: 2px solid black;
+}
+
+.line2{
+    position: relative; top: 3px;
+    border-top: 2px solid black;
+}
+
+.line3{
+    position: relative; top: 4px;
+    border-top: 2px solid black;
+}
+
+@media only screen and (max-width: 856px){
+
+    .Mobile-Route-Navigation-Container{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        width: 25rem;
+        align-items: center;
+        position: relative;
+        top: 30px;
+        left: -4px;
+        background-color:  #ffcdd2
+    }
+
+    .Mobile-Route-Menu-Container{
+        position: relative;
+        top: 8px;
+        display: block;
+        position: fixed;
+    }
+
+    .Mobile-Route-Border{
+        display: block;
+        width: 100%;
+        height: 2rem;
+    }
+
+    .MHeading{
+        position: relative; left: -10px;
+    }
+                    /* LogoMobile */
+}
+.Mborder{
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 145px; width: 100%;
+    position: absolute; top: 0%; left: 0%; 
+    background-image: linear-gradient(lightblue,grey);
+    position: fixed;
+    z-index: 1;
+  }
+  
+.MVertical-Text {
+      writing-mode:vertical-rl ;
+      white-space: nowrap; 
+      position: absolute; top: 1.59%; left: 44%;
+      position: fixed;
+    }
+    
+.MVertical-Text{
+    transform: rotate(180deg);
+  }
+  
+  .MHeading{
+cursor: pointer;
+text-align: center;
+position: absolute; top: 1%; left: 47%;
+position: fixed;
+  }
+  
+  @media only screen and (max-width:856px){
+  
+  .MVertical-Text{
+  position: relative; left: 0%; top:0px;
+  font-size: 15px;
+  
+  }
+  
+  .MHeading{
+   position: relative ; left: -157px; top: -20px;
+  
+  }
+  .Mborder{
+    display: none;
+  }
+  
+  
+  }
+                    /* Bollywood Data Css */
+
+.Bollywood-Container{
+position:absolute; top: 25%; left: 9%;
+}
+                        
+.Bollywood-Heading{
+    border-bottom: 2px solid red;
+    width: 110px;
+}
+                        
+.Bollywood-Image{
+    height: 190px; width: 190px;
+    padding: 15px;
+}
+                        
+.Bollywood-Image-Container{
+    display: flex;
+    flex-direction: column;
+                           
+}
+                        
+.Bollywood-Data-Container{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 4.5%; left: 100%;
+}
+                        
+                /*   Bollywood Top Post Css  */
+.Bollywood-Top-Post-Container{
+    position: absolute; top: 25%; left: 58%;
+}
+                                                                    
+.Bollywood-Top-Post-Heading{
+    border-bottom: 2px solid red;
+}
+                                                                    
+                                                                    
+.Bollywood-Top-post-Image-2{
+    height: 200px ; width: 300px;
+}
+                                                                    
+                                                                    
+.Bollywood-Top-Post-Image-Name{
+    width: 230px;
+}
+                                                                    
+.Bollywood-Top-Post-Image-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; left: -3%; top: 102%;
+}
+                                                                    
+.Bollywood-Top-Post-Data-Container{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 105%; left: 20%;
+}
+                                                                    
+.Bollywood-Top-Post-Number-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 74%; left: 73%;
+}
+                                                                    
+.Bollywood-Top-Post-Image{
+        height: 70px; width: 80px;
+        padding: 15px;
+}
+                                                                    
+.Number{
+    color: gray;
+}
+                                            
+.Bollywood-Advertisement-Container{
+background-color:lavender ;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+height: 630px; width: 300px;
+position: absolute; top: 190%; left: 3%;
+}
+
+.Link-Text{
+text-decoration: none;
+color:black;
+}
+
+.Link-Text:hover{
+    color:teal;
+}
+
+@media only screen and (max-width:856px){
+    .Bollywood-Container{
+        position: absolute;
+        top: 40px;
+        left: 1rem;
+    }
+            
+    .Bollywood-Image{
+    height: 100px;width: 100px;
+    padding-top: 140px;
+    }
+
+    .Bollywood-Image-Container{
+        position: relative; left: -3%; top: -120px;
+    }
+
+    .Bollywood-Data-Container{
+        position: relative; left: 130px; top: -1820px;
+        width: 200px;
+    }
+
+    .BD{
+        position: relative; top: -26px;
+    }
+    
+    .KD{
+        position: relative; top: -90px;
+    }
+
+    .RD{
+        position: relative; top: -110px;
+    }
+
+    .SD{
+        position: relative; top: -120px;
+    }
+
+    .BBD{
+        position: relative; top: -120px;
+    }
+
+    .D2{
+        position: relative; top: -130px;
+    }
+    .Bollywood-Top-Post-Container{
+        position: absolute;
+        top: 1900px;
+        left: 25px;
+    }
+
+    .Bollywood-Advertisement-Container{
+        display: none;
+    }
+} 

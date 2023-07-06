@@ -1,0 +1,140 @@
+                     /* Hollywood Data Css */
+.Hollywood-Container{
+position:absolute; top: 25%; left: 9%;
+    }
+                        
+.Hollywood-Heading{
+    border-bottom: 2px solid red;
+    width: 115px;
+}
+                        
+.Hollywood-Image{
+    height: 160px; width: 190px;
+    padding: 25px;
+}
+                        
+.Hollywood-Image-Container{
+    display: flex;
+    flex-direction: column;
+                           
+}
+                        
+.Hollywood-Data-Container{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 4.5%; left: 100%;
+}
+                        
+                /*   Hollywood Top Post Css  */
+.Hollywood-Top-Post-Container{
+    position: absolute; top: 25%; left: 58%;
+}
+                                                                    
+.Hollywood-Top-Post-Heading{
+    border-bottom: 2px solid red;
+}
+                                                                    
+                                                                    
+.Hollywood-Top-post-Image-2{
+    height: 200px ; width: 300px;
+}
+                                                                    
+                                                                    
+.Hollywood-Top-Post-Image-Name{
+    width: 230px;
+}
+                                                                    
+.Hollywood-Top-Post-Image-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; left: -3%; top: 102%;
+}
+                                                                    
+.Hollywood-Top-Post-Data-Container{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 105%; left: 35%;
+}
+                                                                    
+.Hollywood-Top-Post-Number-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 72%; left: 92%;
+}
+                                                                    
+.Hollywood-Top-Post-Image{
+        height: 70px; width: 80px;
+        padding: 15px;
+}
+                                                                    
+.Number{
+    color: gray;
+}
+                                            
+.Hollywood-Advertisement-Container{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+height: 630px; width: 300px;
+position: absolute; top: 190%; left: 3%;
+}
+
+.Link-Text{
+    text-decoration: none;
+
+}
+
+/* Media Query */
+
+@media only screen and (max-width:856px){
+    .Hollywood-Container{
+        position: relative; top: 60px; left: 1px;
+    }
+
+    .Hollywood-Image-Container{
+        position: relative; left: -16px; top: -185px;
+   }
+
+    .Hollywood-Image{
+        height: 100px; width: 100px;
+        padding-top: 190px;
+    }
+
+    .H2{
+        position: relative; top: -30px;
+    }
+    .H3,.H4{
+        position: relative; top: -60px;
+    }
+    .H5{
+        position: relative; top: -130px;
+    }
+    .H6{
+        position: relative; top: -170px;
+    }
+
+    .H7{
+        position: relative; top: -210px;
+    }
+
+    .Hollywood-Data-Container{
+        position: relative; top: -2255px; left: 130px;
+        width: 200px;
+    }
+
+    
+    .Hollywood-Top-Post-Container{
+        position: relative; top: -2150px; left: 1px;
+    }
+
+    .Hollywood-Advertisement-Container{
+        display: none;
+    }
+}

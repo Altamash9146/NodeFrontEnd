@@ -1,0 +1,107 @@
+.War-Container{
+position: absolute; top: 10%; left: 38%;
+
+}
+
+.War-Heading{
+    position: relative; left: 80px;
+}
+
+.War-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.War-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.War-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.War-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+
+.War-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -20px;
+}
+
+.War-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left: 11%; top: -60px;
+    font-size: 18px;
+}
+
+.War-Para-Container{
+width: 700px;
+position: relative; left: -185px; top: -55px;
+}
+
+.War-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.War-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.War-line{
+    display: none;
+}
+
+.War-Media-Container{
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    width: 377px;
+}
+
+.War-Date-Container{
+position: absolute; top: 110px; left: -90px;
+}
+
+
+.War-Image{
+    position: absolute; left:-100px; top: 170px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.War-Image-Name{
+    position: absolute; left: -92px; top: 400px;
+    width: 310px;
+}
+
+.War-Para-Container{
+    position: absolute; left: -100px; top: 425px;
+    width: 280px;
+}
+
+.War-Back-Button{
+    position: relative; left: -110px; top: 1460px;
+} 
+
+
+}
+
+

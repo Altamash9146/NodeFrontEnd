@@ -1,0 +1,107 @@
+.Sahoo-Container{
+position: absolute; top: 10%; left: 38%;
+
+}
+
+.Sahoo-Heading{
+    position: relative; left: 0px;
+}
+
+.Sahoo-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Sahoo-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.Sahoo-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.Sahoo-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+
+.Sahoo-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -20px;
+}
+
+.Sahoo-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left: 11%; top: -60px;
+    font-size: 18px;
+}
+
+.Sahoo-Para-Container{
+width: 700px;
+position: relative; left: -185px; top: -55px;
+}
+
+.Sahoo-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.Sahoo-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.Sahoo-line{
+    display: none;
+}
+
+.Sahoo-Media-Container{
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    width: 377px;
+}
+
+.Sahoo-Date-Container{
+position: absolute; top: 110px; left: -90px;
+}
+
+
+.Sahoo-Image{
+    position: absolute; left:-100px; top: 170px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.Sahoo-Image-Name{
+    position: absolute; left: -92px; top: 400px;
+    width: 310px;
+}
+
+.Sahoo-Para-Container{
+    position: absolute; left: -100px; top: 425px;
+    width: 280px;
+}
+
+.Sahoo-Back-Button{
+    position: relative; left: -110px; top: 1340px;
+} 
+
+
+}
+
+

@@ -1,0 +1,107 @@
+.Food2-Container{
+position: absolute; top: 10%; left: 38%;
+
+}
+
+.Food2-Heading{
+    position: relative; left: -80px;
+}
+
+
+.Food2-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Food2-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.Food2-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.Food2-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+.Food2-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -20px;
+}
+
+.Food2-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left: -6%; top: -60px;
+    font-size: 18px;
+}
+
+.Food2-Para-Container{
+width: 700px;
+position: relative; left: -155px; top: -55px;
+}
+
+.Food2-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.Food2-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.Food2-line{
+    display: none;
+}
+
+.Food2-Media-Container{
+    position: absolute;
+    top: 140px;
+    left: -200px;
+    width: 377px;
+}
+
+.Food2-Date-Container{
+position: absolute; top: 190px; left: -90px;
+}
+
+
+.Food2-Image{
+    position: absolute; left:-100px; top: 250px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.Food2-Image-Name{
+    position: absolute; left: -92px; top: 470px;
+    width: 310px;
+}
+
+.Food2-Para-Container{
+    position: absolute; left: -92px; top: 510px;
+    width: 280px;
+}
+
+.Food2-Back-Button{
+    position: relative; left: -110px; top: 1000px;
+} 
+
+
+}
+
+

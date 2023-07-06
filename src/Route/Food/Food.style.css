@@ -1,0 +1,132 @@
+                     /* Food Data Css */
+.Food-Container{
+position:absolute; top: 25%; left: 9%;
+    }
+                        
+.Food-Heading{
+    border-bottom: 2px solid red;
+    width: 50px;
+}
+                        
+.Food-Image{
+    height: 170px; width: 160px;
+    padding: 20px;
+}
+                        
+.Food-Image-Container{
+    display: flex;
+    flex-direction: column;
+                           
+}
+                        
+.Food-Data-Container{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 4.5%; left: 105%;
+}
+                        
+                /*   Food Top Post Css  */
+.Food-Top-Post-Container{
+    position: absolute; top: 25%; left: 58%;
+}
+                                                                    
+.Food-Top-Post-Heading{
+    border-bottom: 2px solid red;
+}
+                                                                    
+                                                                    
+.Food-Top-post-Image-2{
+    height: 200px ; width: 300px;
+}
+                                                                    
+                                                                    
+.Food-Top-Post-Image-Name{
+    width: 230px;
+}
+                                                                    
+.Food-Top-Post-Image-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; left: -3%; top: 102%;
+}
+                                                                    
+.Food-Top-Post-Data-Container{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 100%; left: 35%;
+}
+                                                                    
+.Food-Top-Post-Number-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 77%; left: 92%;
+}
+                                                                    
+.Food-Top-Post-Image{
+        height: 70px; width: 80px;
+        padding: 15px;
+}
+                                                                    
+.Number{
+    color: gray;
+}
+                                            
+.Food-Advertisement-Container{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+height: 630px; width: 300px;
+position: absolute; top: 200%; left: 3%;
+}
+
+.Link-Text{
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width:856px){
+    .Food-Container{
+        position: relative; top: 40px; left: 1px;
+    }
+
+    .Food-Image{
+        height: 100px;
+        width: 100px;
+        padding-top: 150px;
+    }
+
+    .Food-Image-Container{
+        position: relative; top: -140px; left: -17px;
+    }
+
+    .FO2,.FO3,.FO4{
+    position: relative; top: -50px;
+
+    }
+
+    .FO5,.FO6,.FO7{
+        position: relative; top: -90px;
+            
+    }
+
+
+    .Food-Data-Container{
+        position: relative; left: 190px;top: -1930px;left: 116px;
+        width: 220px;
+    }
+
+    .Food-Top-Post-Container{
+        position: relative; top:-1900px; left: 1px;
+    }
+
+    .Food-Advertisement-Container{
+        display: none;
+    }
+}

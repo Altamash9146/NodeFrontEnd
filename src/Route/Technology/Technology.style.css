@@ -1,0 +1,134 @@
+                     /* Technology Data Css */
+.Technology-Container{
+position:absolute; top: 25%; left: 9%;
+ }
+
+.Technology-Heading{
+    border-bottom: 2px solid red;
+    width: 115px;
+}
+
+.Technology-Image{
+    height: 170px; width: 160px;
+    padding: 15px;
+}
+
+.Technology-Image-Container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Technology-Data-Container{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 4.5%; left: 100%;
+}
+
+                /*   Technology Top Post Css  */
+.Technology-Top-Post-Container{
+    position: absolute; top: 25%; left: 58%;
+}
+                                            
+.Technology-Top-Post-Heading{
+    border-bottom: 2px solid red;
+}
+                                            
+                                            
+.Technology-Top-post-Image-2{
+    height: 200px ; width: 300px;
+}
+                                            
+                                            
+.Technology-Top-Post-Image-Name{
+    width: 230px;
+}
+                                            
+.Technology-Top-Post-Image-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; left: -3%; top: 102%;
+}
+                                            
+.Technology-Top-Post-Data-Container{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 100%; left: 35%;
+}
+                                            
+.Technology-Top-Post-Number-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; top: 72%; left: 92%;
+}
+                                            
+.Technology-Top-Post-Image{
+        height: 70px; width: 80px;
+        padding: 15px;
+}
+                                            
+.Number{
+    color: gray;
+}
+                    
+.Technology-Advertisement-Container{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+height: 630px; width: 300px;
+position: absolute; top: 190%; left: 3%;
+}
+
+.H2-Link-Text{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:856px){
+    
+    .Technology-Container{
+        position: relative; top: 40px; left: 0%;
+    }
+
+    .Technology-Image-Container{
+        position: relative; top: -170px; left: -2px;
+    }
+
+    .Technology-Image{
+        height: 100px;
+        width: 100px;
+        padding-top: 190px;
+    }
+
+    .T5{
+        position: relative; top: -80px;
+    }
+
+    .T6{
+        position: relative; top: -80px;
+    }
+
+    .T7{
+        position: relative; top: -90px;
+    }
+
+    .Technology-Data-Container{
+        position: relative; left: 150px; top: -2170px;
+        width: 200px;
+    }
+    
+    .Technology-Top-Post-Container{
+        position: relative; top: -2100px; left: 3px;
+    }
+
+    .Technology-Advertisement-Container{
+        display: none;
+    }
+}

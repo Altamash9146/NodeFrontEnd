@@ -1,0 +1,108 @@
+.Fitness6-Container{
+position: absolute; top: 10%; left: 38%;
+
+}
+
+.Fitness6-Heading{
+    position: relative; left: -80px;
+}
+
+
+.Fitness6-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Fitness6-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.Fitness6-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.Fitness6-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+.Fitness6-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -20px;
+}
+
+.Fitness6-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left: -6%; top: -60px;
+    font-size: 18px;
+}
+
+.Fitness6-Para-Container{
+width: 700px;
+position: relative; left: -155px; top: -55px;
+}
+
+.Fitness6-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.Fitness6-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.Fitness6-line{
+    display: none;
+}
+
+.Fitness6-Media-Container{
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    width: 377px;
+}
+
+.Fitness6-Date-Container{
+position: absolute; top: 150px; left: -90px;
+/* display: none; */
+}
+
+
+.Fitness6-Image{
+    position: absolute; left:-100px; top: 210px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.Fitness6-Image-Name{
+    position: absolute; left: -92px; top: 430px;
+    width: 310px;
+}
+
+.Fitness6-Para-Container{
+    position: absolute; left: -92px; top: 475px;
+    width: 280px;
+}
+
+.Fitness6-Back-Button{
+    position: relative; left: -110px; top: 1300px;
+} 
+
+
+}
+
+

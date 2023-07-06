@@ -1,0 +1,107 @@
+.Food6-Container{
+position: absolute; top: 10%; left: 38%;
+
+}
+
+.Food6-Heading{
+    position: relative; left: -80px;
+}
+
+
+.Food6-Media-Container{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 650px;
+    position: relative; left: -250px;top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Food6-Social-Media-Logo{
+    height: 25px; width: 100px;
+}
+
+
+.Food6-Boy-Logo{
+    height: 50px; width: 50px;
+    position: relative; left: 25%; top: -10px;
+}
+
+.Food6-Date-Container{
+    position: relative; top: -112px; left: -20px; 
+    line-height: 1px;
+}
+.Food6-Image{
+    box-shadow: 3px 3px 3px black;
+    width: 350px; height: 190px;
+    position: relative; top: -85px; left: -20px;
+}
+
+.Food6-Image-Name{
+    color:rgb(255,0,187);
+    position: relative; left: -6%; top: -60px;
+    font-size: 18px;
+}
+
+.Food6-Para-Container{
+width: 700px;
+position: relative; left: -155px; top: -55px;
+}
+
+.Food6-Back-Button{
+    padding: 10px;
+    color:black;
+    background-color: azure;
+    border-radius: 20px;
+    position: relative; left: -470px; top: -50px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:856px){
+
+.Food6-Heading{
+    position: absolute;
+    left: -120px;
+    width: 350px;
+}
+
+.Food6-line{
+    display: none;
+}
+
+.Food6-Media-Container{
+    position: absolute;
+    top: 100px;
+    left: -200px;
+    width: 377px;
+}
+
+.Food6-Date-Container{
+position: absolute; top: 150px; left: -90px;
+}
+
+
+.Food6-Image{
+    position: absolute; left:-100px; top: 210px;
+    height: 200px;
+    width: 300px;
+} 
+
+
+.Food6-Image-Name{
+    position: absolute; left: -92px; top: 430px;
+    width: 310px;
+}
+
+.Food6-Para-Container{
+    position: absolute; left: -92px; top: 475px;
+    width: 280px;
+}
+
+.Food6-Back-Button{
+    position: relative; left: -110px; top: 1100px;
+} 
+
+
+}
+
+
