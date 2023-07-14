@@ -67,11 +67,12 @@ input{
     position: relative; top: 45px; 
 }
 
-.Signup-Link{
-    position: absolute; top: 420px;
-}
 
-/* Signup Page */
+ .Signup-Link{
+  position: absolute; top: 70%; left: 42%;
+} 
+
+
 
 .Signup-Form-Container{
     display: flex; justify-content: center;
@@ -96,7 +97,7 @@ input{
 }
 
 .Signup-Form-Container input[type ='email']{
-    position: relative; left: 9px;
+    position: relative; left: 19px;
     padding: 10px;
 }
 
@@ -106,9 +107,24 @@ input{
     padding: 10px;
     border: 4px; width: 130px;
     border-radius: 5px;
-    position: relative; top: 45px; left: -120px;
+    position: relative; top: 10px; left: -120px;
 }
 
 .Login-Link{
-    position: relative; left: 4rem; bottom: -10px;
+    position: relative; left: 4rem; bottom: 16px;
+}
+
+
+@media only screen and (max-width: 856px){
+    .Signup-Link{
+        left: 20%; top: 63%;
+    }
+
+    .Auth-Signup{
+        width: 100px;
+    }
+
+    .Auth-Login{
+        top: 33px;
+    }
 }

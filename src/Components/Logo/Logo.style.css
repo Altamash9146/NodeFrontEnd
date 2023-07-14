@@ -51,6 +51,14 @@
   border-radius: 5px;
 }
 
+.Name-Container{
+  position: relative; left: 16rem; top: -1rem;
+}
+
+.Name{
+  text-decoration:underline;
+}
+
 @media only screen and (max-width:856px){
 
 .Vertical-Text{
@@ -65,8 +73,33 @@ font-size: 15px;
 
 }
 .border{
-  display: none;
+  height: 37px;
+}
+.Logo-Login-Button{
+  left: 30%; top: 0px;
+  cursor: pointer;
+  background-color: pink;
+  padding: 10px;
+  border: 4px; width: 85px;
+  border-radius: 5px;
 }
 
+.Logo-Signup-Button{
+ left: 33%; top: 0px;
+  cursor: pointer;
+  background-color: pink;
+  padding: 10px;
+  border: 4px; width: 85px;
+  border-radius: 5px;
+}
+
+.Logo-Logout-Button{
+  left: 30%; top: 0px;
+  cursor: pointer;
+  background-color: pink;
+  padding: 10px;
+  border: 4px; width: 85px;
+  border-radius: 5px;
+}
 
 }

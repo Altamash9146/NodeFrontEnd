@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import './Authentication.style.css'
 
 const Login = () => {
+  const navi  = useNavigate()
 
-    const[formdata, setFormdata] = useState({EmailAdress:"",Password:""})
-    const[formSubmission, setFormsubmission] = useState([])
-    // const [LoggedIn, setLoggedIn] = useState(false)
+    const[formdata, setFormdata] = useState({EmailAdress:"",password:""})
 
     const handleOnchange = (event)=>{
         const  {name, value} = event.target
@@ -16,25 +15,32 @@ const Login = () => {
 
     const handleOnSubmit  = (event)=>{
             event.preventDefault()
-            setFormsubmission([...formSubmission, formdata])
-            setFormdata({EmailAdress:"",Password:""}) 
-
-            //Sending the Login request//
-             axios.post('http://localhost:9002/login?email=' + formdata.EmailAdress + '&password=' + formdata.Password)
+             axios.post('http://localhost:9002/login',formdata)
             .then((response) => {
+              if(response.data.token){
+                navi('/')
+                localStorage.setItem("token",response.data.token)
+                localStorage.setItem("FirstName",response.data.FirstName)
+            }
             console.log(response.data);
-            // setLoggedIn(true)
             })
             .catch((error) => {
-            console.error(error);
+              if (error.response) {
+                console.error(error.response.data.message); 
+                alert(`${error.response.data.message}`)
+              } else {
+                console.error(error.message);
+                alert(`${error.response.data.message}`)
+              }
             });
-
+            console.log(formdata);
+            setFormdata({EmailAdress:"",password:""}) 
     }
 
   return (
     <>
     
-    <h1 className='Store-Heading'>All in One Store</h1>
+    <h1 className='Store-Heading'>The Siren</h1>
 
     <div className='Image-Container'>
     <img src='https://png.pngtree.com/png-vector/20220610/ourmid/pngtree-lock-icon-on-white-background-png-image_4859938.png'
@@ -54,7 +60,7 @@ const Login = () => {
     
     <label className='Login-Password-Section'>
        Password
-    <input type='password' name='Password' placeholder='Password' value={formdata.Password} required onChange={handleOnchange}/>
+    <input type='password' name='password' placeholder='Password' value={formdata.password} required onChange={handleOnchange}/>
     </label>
  
 

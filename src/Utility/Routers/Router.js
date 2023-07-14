@@ -20,21 +20,21 @@ import { Food1,Food2,Food3,Food4,Food5,Food6,Food7,Food8,Food9,Food10,Food11   }
 import { Fitness1,Fitness2,Fitness3,Fitness4,Fitness5,Fitness6,Fitness7,Fitness8,Fitness9,Fitness10,Fitness11 } from "../../RouteContent/FitnessContent";
 
  import { Login,Signup } from "../../Components";
-// import axios from "axios";
-// import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Router = ()=>{
-  // const [isUserSignedUp, setIsUserSignedUp] = useState(false);
+  const [isUserSignedUp, setIsUserSignedUp] = useState( false );
 
+
+  useEffect(() => {
+    if (localStorage.getItem("token") && isUserSignedUp === false) {
+      setIsUserSignedUp(true);
+      console.log(isUserSignedUp);
+    }
+  },[isUserSignedUp]);
+  console.log(isUserSignedUp);
   
-  // const handleSignup = (formdata) => {
-       // setIsUserSignedUp(true); 
-  // };
-
-  // console.log(data);
-
-  // console.log("Reached the conditional operator");
-  
+ 
 return(
     <>
     <BrowserRouter>
@@ -54,8 +54,8 @@ return(
   
 
     {/* Bollywood Content */}
-   {/* {isUserSignedUp ? (
-    <> */}
+   {isUserSignedUp ? (
+    <>
         <Route path="/BollywoodContent/Bahubali" element = {<Bahubali/>}/>
         <Route path="/BollywoodContent/BajrangiBhaijan" element = {<BajrangiBhaijan/>}/>
         <Route path="/BollywoodContent/Dangal" element = { <Dangal/>}/>
@@ -67,10 +67,10 @@ return(
         <Route path="/BollywoodContent/SecretSuperstar" element = { <Secret/>}/>
         <Route path="/BollywoodContent/Sultan" element = {<Sultan/>}/>
         <Route path="/BollywoodContent/War" element = {  <War/>}/>  
-    {/* </>
+    </>
     ):(
       <Route path="/BollywoodContent/*" element={< Navigate to="/Signup" replace/>} />
-    )} */}
+    )}
   
    {/* Technology Content */}
         <Route path= "/TechnologyContent/Tech1" element={<Tech1/>}/>
